@@ -15,19 +15,13 @@ The backend requires `MONGODB_URI` in `backend/.env`.
 
 After changing it, restart the backend.
 
-## 2) AWS S3
-The backend generates pre-signed URLs for upload/download.
+## 2) Cloudinary
+The backend streams and uploads files directly to Cloudinary storage.
 
 In `backend/.env` ensure:
-- `AWS_REGION=...`
-- `AWS_ACCESS_KEY_ID=...`
-- `AWS_SECRET_ACCESS_KEY=...`
-- `S3_BUCKET_NAME=...`
-
-Also ensure your bucket policy/IAM allows:
-- `s3:PutObject` to `uploads/<userId>/*`
-- `s3:GetObject` to `uploads/<userId>/*`
-- `s3:DeleteObject` to `uploads/<userId>/*`
+- `CLOUDINARY_CLOUD_NAME=your_cloud_name`
+- `CLOUDINARY_API_KEY=your_api_key`
+- `CLOUDINARY_API_SECRET=your_api_secret`
 
 ## 3) Run
 Backend:
