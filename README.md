@@ -76,3 +76,13 @@ npm install
 npm run dev
 ```
 *Frontend listens at `http://localhost:5173`*
+
+---
+
+## 📸 Screenshots
+
+### 1. User Dashboard Portal
+![User Dashboard Portal](screenshots/dashboard.png)
+
+### 2. Cloudinary Hosted PDF Preview (Highlighted URL)
+![Cloudinary Hosted PDF Preview](screenshots/cloudinary_pdf_view.png)
