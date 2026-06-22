@@ -1,0 +1,11 @@
+{
+  "name": "aws-s3-file-storage",
+  "private": true,
+  "workspaces": [],
+  "scripts": {
+    "start": "echo \"See README for backend/frontend run instructions\""
+  },
+  "dependencies": {
+    "mongodb": "^7.3.0"
+  }
+}
